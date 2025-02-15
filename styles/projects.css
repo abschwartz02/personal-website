@@ -1,6 +1,7 @@
+
 .welcome-message-container {
   
-  background-image: url('../images/welcome-background.jpg');
+  background-image: url('../images/projects-background.jpg');
   background-size: cover;
   
   background-position: center;
@@ -12,8 +13,7 @@
   display: flex;
   min-height: 500px;
   margin-top: 60px;
-  
-  
+
 }
 
 @keyframes slide-in-left {
@@ -58,6 +58,7 @@
   margin-left: 1%;
   margin-top: 5%;
   height: 300px; 
+  
   animation: slide-in-right 1s ease-out forwards;
 }
 
@@ -72,10 +73,9 @@
 }
 
 .section-image-even {
-  height: 300px; 
+  height: 300px;
   animation: slide-in-left 1s ease-out forwards;
   padding-top: 20px;
-  
 }
 
 .section-content-even {
@@ -83,7 +83,7 @@
   flex-wrap: wrap;
   word-wrap: break-word;
   overflow-wrap: break-word;
- 
+  
   
   animation: slide-in-right 1s ease-out forwards;
   
@@ -145,7 +145,7 @@
   
 }
 
+
 .section-text-odd {
   font-size: 40;
 }
-

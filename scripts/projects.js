@@ -1,10 +1,10 @@
 import {generateTopBar, configureTopBar, generateFooter} from "./config.js";
 
-const homeData = [
+const projectData = [
   {
-    image: 'images/question-mark.png',
-    header: 'Who is Andrew Schwartz?',
-    text: `The handsome gentleman in the picture above is none other than yours truly. I love to code, and I built this website from scratch to log my career journey as well as show off some projects and my unique personality. `
+    image: 'images/hitachi.png',
+    header: 'My Capstone Project',
+    text: `To show the culmination of everything I had learned while attending NC State, I had the priveige of developing software in sponsor-lead project in collaboration with Hitachi Energy. Within a team of 5 seniors over the span of an entire semester, I helped build a fully functioning full-stack web application to serve as a user interface for the creation and modification of complex Json files.`
   },
   {
     image: 'images/ncsu-wolf.png',
@@ -12,18 +12,19 @@ const homeData = [
     text: 'Go pack! Earning my CS degree as a member of the wolfpack nation was a truly unforgettable experience. I embraced a studious lifestyle, graduating with a 3.97 GPA, and taking some really fun courses. Check out the projects page to view some of the work from my most memorable courses.'
   },
   {
-    image: 'images/career.png',
-    header: 'My Career',
-    text: 'As a recent college graduate, I am eagerly seeking to put my degree to work! Working at a steakhouse for 6 years through highschool and college was an amazing experience and taught me the value of employee loyalty, but my real passion lies with building meaningful software solutions, and I cannot wait to see where the tech industry will take me!' 
+    image: 'images/interpreter.png',
+    header: 'Building a New Programming Language',
+    text: 'Yup, thats right! One of my favorite projects at NC State was building a fully functioning interpreter for a new programming language. In honor of the course number for my programming theory class, the language was named "417" (pronounced four-seventeen). This project has given me a fundamental understanding of how code in works, and this fundamental knowledge has made learning new programming languages significantly easier for me.'
+    
   }
-]
 
-document.body.innerHTML = await generateTopBar("Home") + document.body.innerHTML;
+]
+document.body.innerHTML = await generateTopBar("Projects") + document.body.innerHTML;
 document.body.innerHTML += await generateFooter();
 await configureTopBar(document);
 
 let homePageHTML = '';
-  homeData.forEach((block, index) => {
+  projectData.forEach((block, index) => {
     if (index % 2 == 0) {
       homePageHTML += `
       <div class="home-page-section-even">
@@ -55,10 +56,5 @@ let homePageHTML = '';
     
   });
 
-  document.querySelector('.js-home-blocks')
+  document.querySelector('.js-project-blocks')
     .innerHTML = homePageHTML;
-  
-  
-
-  
-  
