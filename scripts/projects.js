@@ -4,18 +4,23 @@ const projectData = [
   {
     image: 'images/hitachi.png',
     header: 'My Capstone Project',
-    text: `To show the culmination of everything I had learned while attending NC State, I had the priveige of developing software in sponsor-lead project in collaboration with Hitachi Energy. Within a team of 5 seniors over the span of an entire semester, I helped build a fully functioning full-stack web application to serve as a user interface for the creation and modification of complex Json files.`
+    text: `To show the culmination of everything I had learned while attending NC State, I had the priveige of developing software in a sponsor-lead project in collaboration with Hitachi Energy. Within a team of 5 seniors over the span of an entire semester, I helped build a fully functioning full-stack web application to serve as a user interface for the creation and modification of complex Json files.`
   },
   {
-    image: 'images/ncsu-wolf.png',
-    header: 'Education',
-    text: 'Go pack! Earning my CS degree as a member of the wolfpack nation was a truly unforgettable experience. I embraced a studious lifestyle, graduating with a 3.97 GPA, and taking some really fun courses. Check out the projects page to view some of the work from my most memorable courses.'
+    image: 'images/stock.png',
+    header: 'Stock Data Analysis Project',
+    text: ''
   },
   {
     image: 'images/interpreter.png',
     header: 'Building a New Programming Language',
     text: 'Yup, thats right! One of my favorite projects at NC State was building a fully functioning interpreter for a new programming language. In honor of the course number for my programming theory class, the language was named "417" (pronounced four-seventeen). This project has given me a fundamental understanding of how code in works, and this fundamental knowledge has made learning new programming languages significantly easier for me.'
     
+  },
+  {
+    image: 'images/coffee-shop.png',
+    header: 'CoffeeMaker Web Application',
+    text: 'As a software engineer, coffeer holds a special place in my heart. The CoffeeMaker Web Application simulates typical interactions and tasks that take place within a coffee shop. This project is the first full-stack web application I worked on at NC State, and it marked a pivotol moment in my education where I learned Agile software development processes, collaboration in a large team, and having to learn new technologies fast to meet deadlines.' 
   }
 
 ]
