@@ -14,20 +14,70 @@
   margin-top: -58px;
 }
 
-.page-select-container {
+
+.topBar {
+  padding: 0px;
+  margin: 0px;
+  position: fixed;
+  z-index: 9999;
   
+  
+}
+
+.page-select-container {
   padding: 0px;
   margin: 0px;
   width: 100%;
+  margin-top: -2px;
   position: fixed;
   flex-wrap: wrap;
   display: flex;
   min-height: 60px;
   background-color: white;
-  z-index: 9999;
-  border-bottom: 2px solid #000000; /* Border around the table */
-  margin-top: -2px;
+  box-sizing: border-box;
+  border-bottom: 0px solid #000000; /* Border around the table */
   transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-select-container {
+  margin-top: -2px;
+  display: none;
+  background-color: white;
+  margin-left: 54.5px;
+  width: 300px;
+  
+
+}
+
+.project-select-buttons {
+  margin-top: 60px;
+  
+}
+
+.project-select-button {
+  text-align: left;
+  width: 100%;
+  word-wrap: break-word;
+  height: 50px;
+  border-radius: 0;
+  border: 0;
+  background-color: white;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.project-select-button:hover {
+  background-color: rgb(70, 54, 143);
+  color: white;
+  cursor: pointer;
+}
+
+.project-select-button-scrolled {
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.project-select-button-scrolled:hover {
+  background-color:  #CC0000;
+  color: white;
 }
 
 .page-select-scrolled {
@@ -71,12 +121,21 @@
   color: black;
 }
 
+.selected-project-button {
+  background-color: rgb(70, 54, 143);
+  color: white;
+}
+
+.selected-project-button-scrolled  {
+  background-color: #CC0000;
+  color: white;
+}
 .footer-container {
   
   min-height: 200px;
   display: flex;
-  background-color:#a81b1b;
-  
+  background-color: #CC0000;
+  border-top: 2px solid #000000 ;
   
   color: white;
 }

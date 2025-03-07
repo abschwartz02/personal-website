@@ -1,6 +1,6 @@
 .welcome-message-container {
   
-  background-image: url('../images/welcome-background.jpg');
+  background-image: url('../images/data-background.jpg');
   background-size: cover;
   
   background-position: center;
@@ -158,3 +158,50 @@
   justify-content: center;
 
 }
+
+.section-link-odd {
+  font-size: 40;
+  text-decoration: none;
+  color: white; /* Changes the text color */
+  
+}
+
+.section-link-odd:hover {
+  text-decoration: underline;
+    text-decoration-color: white; /* Changes the underline color */
+}
+
+.section-link-odd:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+
+.section-link-even {
+  font-size: 40;
+  text-decoration: none; 
+  color: black; /* Changes the text color */
+}
+
+.section-link-even:hover {
+  text-decoration: underline;
+  text-decoration-color: black; /* Changes the underline color */
+}
+
+.section-link-even:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.section-image-big {
+  border: 2px solid black;
+  height: 700px; 
+  animation: slide-in-left 1s ease-out forwards;
+  margin: 20px 0px;
+  
+}
+

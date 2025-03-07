@@ -18,8 +18,8 @@ const homeData = [
   }
 ]
 
-document.body.innerHTML = await generateTopBar("Home") + document.body.innerHTML;
-document.body.innerHTML += await generateFooter();
+document.body.innerHTML = await generateTopBar("Home", "") + document.body.innerHTML;
+document.querySelector('.js-page-container').innerHTML += await generateFooter();
 await configureTopBar(document);
 
 let homePageHTML = '';
@@ -27,6 +27,7 @@ let homePageHTML = '';
     if (index % 2 == 0) {
       homePageHTML += `
       <div class="home-page-section-even">
+        <div class="even-wrapper">
         <img class="section-image-even" src="${block.image}">
         
         <div class="section-content-even">
@@ -34,6 +35,7 @@ let homePageHTML = '';
           <p class="section-text-even">${block.text}
           </p>
         </div>
+      </div>
       </div>
     `;
     

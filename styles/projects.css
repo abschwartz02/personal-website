@@ -76,6 +76,7 @@
   height: 300px;
   animation: slide-in-left 1s ease-out forwards;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .section-content-even {
@@ -149,3 +150,50 @@
 .section-text-odd {
   font-size: 40;
 }
+
+.section-link-even {
+  font-size: 40;
+  text-decoration: none; 
+  color: black; /* Changes the text color */
+}
+
+.section-link-even:hover {
+  text-decoration: underline;
+  text-decoration-color: black; /* Changes the underline color */
+}
+
+.section-link-even:visited {
+  color: white;
+  text-decoration: none;
+}
+
+
+.section-link-odd {
+  font-size: 40;
+  text-decoration: none;
+  color: white; /* Changes the text color */
+  
+}
+
+.section-link-odd:hover {
+  text-decoration: underline;
+    text-decoration-color: white; /* Changes the underline color */
+}
+
+.section-link-odd:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.even-wrapper {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: center;
+
+}
+

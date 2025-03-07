@@ -1,6 +1,6 @@
 .welcome-message-container {
   
-  background-image: url('../images/welcome-background.jpg');
+  background-image: url('../images/hitachi-background.jpg');
   background-size: cover;
   
   background-position: center;
@@ -68,8 +68,15 @@
   background-color: rgb(243, 243, 243);
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
-  
   min-height: 500px;
+}
+
+.even-wrapper {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .section-image-even {
@@ -77,7 +84,6 @@
   animation: slide-in-left 1s ease-out forwards;
   padding-top: 20px;
   padding-bottom: 20px;
-  
 }
 
 .section-content-even {
@@ -108,6 +114,7 @@
 }
 
 .home-page-section-odd {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   min-height: 500px;
@@ -151,10 +158,23 @@
   font-size: 40;
 }
 
-.even-wrapper {
-  display: flex;
-  flex-wrap: wrap-reverse;
-  align-items: center;
-  justify-content: center;
+.section-link-odd {
+  font-size: 40;
+  text-decoration: none;
+  color: white; /* Changes the text color */
+  
+}
 
+.section-link-odd:hover {
+  text-decoration: underline;
+    text-decoration-color: white; /* Changes the underline color */
+}
+
+.section-link-odd:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.no-underline {
+  text-decoration: none;
 }
