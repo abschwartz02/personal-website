@@ -80,7 +80,7 @@ export async function configureTopBar(dom, inProject) {
         window.location.href = "../funfacts.html";
       }
       else {
-        window.location.href = "/funfacts.html";
+        window.location.href = "funfacts.html";
       }
       
     });
