@@ -19,8 +19,8 @@ const homeData = [
 ]
 
 document.body.innerHTML = await generateTopBar("Home", "") + document.body.innerHTML;
-document.querySelector('.js-page-container').innerHTML += await generateFooter();
-await configureTopBar(document);
+document.querySelector('.js-page-container').innerHTML += await generateFooter(false);
+await configureTopBar(document, false);
 
 let homePageHTML = '';
   homeData.forEach((block, index) => {

@@ -73,20 +73,38 @@ export async function generateTopBar(selectedButton, selectedProject) {
   return homeBarHTML;
 }
 
-export async function configureTopBar(dom) {
+export async function configureTopBar(dom, inProject) {
   dom.querySelector('.js-fun-facts-button')
     .addEventListener('click', () => {
-      window.location.href = "/funfacts.html";
+      if (inProject) {
+        window.location.href = "../funfacts.html";
+      }
+      else {
+        window.location.href = "/funfacts.html";
+      }
+      
     });
 
     dom.querySelector('.js-home-button')
     .addEventListener('click', () => {
-      window.location.href = "/home.html";
+      if (inProject) {
+        window.location.href = "../index.html";
+      }
+      else {
+        window.location.href = "index.html";
+      }
+      
     });
 
     const projectsButton = dom.querySelector('.js-projects-button');
     projectsButton.addEventListener('click', () => {
-      window.location.href = "/projects.html";
+      if (inProject) {
+        window.location.href = "../projects.html";
+      }
+      else {
+        window.location.href = "projects.html";
+      }
+      
     });
     const dropDownElement = dom.querySelector('.js-project-select-container');
 
@@ -153,27 +171,50 @@ export async function configureTopBar(dom) {
 
     dom.querySelector('.js-web-config-button')
     .addEventListener('click', () => {
-      window.location.href = "/projects/web-config-project.html";
+      if (inProject) {
+        window.location.href = "web-config-project.html";
+      }
+      else {
+        window.location.href = "projects/web-config-project.html";
+      }
+      
     });
 
     dom.querySelector('.js-data-analysis-button')
     .addEventListener('click', () => {
-      window.location.href = "/projects/data-analysis-project.html";
+      if (inProject) {
+        window.location.href = "data-analysis-project.html";
+      }
+      else {
+        window.location.href = "projects/data-analysis-project.html";
+      }
     });
 
     dom.querySelector('.js-new-language-button')
     .addEventListener('click', () => {
-      window.location.href = "/projects/new-language-project.html";
+      if (inProject) {
+        window.location.href = "new-language-project.html";
+      }
+      else {
+        window.location.href = "projects/new-language-project.html";
+      }
+      
     });
     dom.querySelector('.js-coffee-button')
     .addEventListener('click', () => {
-      window.location.href = "/projects/coffeemaker-web-app.html";
+      if (inProject) {
+        window.location.href = "coffeemaker-web-app.html";
+      }
+      else {
+        window.location.href = "projects/coffeemaker-web-app.html";
+      }
+      
     });
 
 }
 
-export async function generateFooter() {
-  return `
+export async function generateFooter(inProjects) {
+  let footerHTML = `
     <div class="footer-container">
         <div class="footer-blocks">
           <div class="footer-block">
@@ -196,13 +237,16 @@ export async function generateFooter() {
             </div>
             <div class="footer-block-images">
               <a href ="https://www.linkedin.com/in/andschwartz/" target="_blank">
-                <img class="footer-image" src="/images/linkedin.png" alt="LinkedIn "title="LinkedIn">
+                <img class="footer-image" src="`;
+                if (inProjects){footerHTML += `../`} footerHTML += `images/linkedin.png" alt="LinkedIn "title="LinkedIn">
               </a>
               <a href ="https://github.com/abschwartz02" target="_blank">
-                <img class="footer-image" src="/images/github.png" alt="Github "title="Github">
+                <img class="footer-image" src="`;
+                if (inProjects){footerHTML += `../`} footerHTML +=`images/github.png" alt="Github "title="Github">
               </a>
               <a href ="https://www.instagram.com/a22_schwartz" target="_blank">
-                <img class="footer-image" src="/images/instagram.png" alt="Instagram" title="Instagram">
+                <img class="footer-image" src="`;
+                if (inProjects){footerHTML += `../`} footerHTML +=`images/instagram.png" alt="Instagram" title="Instagram">
               </a>
               
             </div>
@@ -210,4 +254,5 @@ export async function generateFooter() {
         </div>
       </div>
   `;
+  return footerHTML
 }
