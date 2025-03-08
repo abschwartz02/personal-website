@@ -1,0 +1,207 @@
+.welcome-message-container {
+  
+  background-image: url('../images/data-background.jpg');
+  background-size: cover;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center; /* Center items horizontally */
+  
+  align-items: center; /* Center vertically */
+  flex-wrap: wrap;
+  display: flex;
+  min-height: 500px;
+  margin-top: 60px;
+  
+  
+}
+
+@keyframes slide-in-left {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+      transform: translateX(+100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+.welcome-message-text {
+  text-align: center;
+  font-size: 50;
+  animation: slide-in-left 1s ease-out forwards;
+  padding-right: 50px;
+  margin-top: 5%;
+  
+  font-weight: bold;
+    color: white; /* Text color */
+    text-shadow: 
+        2px 2px 0px black, /* Top-left shadow */
+        -2px -2px 0px black, /* Bottom-right shadow */
+        2px -2px 0px black, /* Top-right shadow */
+        -2px 2px 0px black; /* Bottom-left shadow */
+}
+
+.welcome-message-image {
+  margin-left: 1%;
+  /*margni-top set to 5% or 200px if I chose to just have image in center */
+  margin-top: 5%;
+  height: 300px; 
+  animation: slide-in-right 1s ease-out forwards;
+}
+
+.home-page-section-even {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(243, 243, 243);
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  
+  min-height: 500px;
+}
+
+.section-image-even {
+  height: 300px; 
+  animation: slide-in-left 1s ease-out forwards;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.section-content-even {
+  padding-top: 20px;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+ 
+  
+  animation: slide-in-right 1s ease-out forwards;
+  
+  width: 60%;
+  padding-left: 60px;
+}
+.section-header-even {
+  
+  font-size: 50;
+  font-weight: bold;
+  margin: 0;
+  
+  
+  
+}
+
+.section-text-even {
+  font-size: 40;
+ 
+}
+
+.home-page-section-odd {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 500px;
+  background-color:#a81b1b;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  
+}
+
+.section-image-odd {
+  height: 300px; 
+  animation: slide-in-right 1s ease-out forwards;
+  padding-bottom: 20px;
+}
+
+.section-content-odd {
+  padding-top: 20px;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  
+  animation: slide-in-left 1s ease-out forwards;
+  width: 60%;
+  padding-right: 60px;
+  color: white;
+}
+.section-header-odd {
+  
+  font-size: 50;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 
+        2px 2px 0px black, /* Top-left shadow */
+        -2px -2px 0px black, /* Bottom-right shadow */
+        2px -2px 0px black, /* Top-right shadow */
+        -2px 2px 0px black; /* Bottom-left shadow */
+  
+}
+
+.section-text-odd {
+  font-size: 40;
+}
+
+.even-wrapper {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.section-link-odd {
+  font-size: 40;
+  text-decoration: none;
+  color: white; /* Changes the text color */
+  
+}
+
+.section-link-odd:hover {
+  text-decoration: underline;
+    text-decoration-color: white; /* Changes the underline color */
+}
+
+.section-link-odd:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+
+.section-link-even {
+  font-size: 40;
+  text-decoration: none; 
+  color: black; /* Changes the text color */
+}
+
+.section-link-even:hover {
+  text-decoration: underline;
+  text-decoration-color: black; /* Changes the underline color */
+}
+
+.section-link-even:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.section-image-big {
+  border: 2px solid black;
+  height: 700px; 
+  animation: slide-in-left 1s ease-out forwards;
+  margin: 20px 0px;
+  
+}
+
