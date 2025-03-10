@@ -29,7 +29,7 @@ const interpreterData = [
   {
     demo: true,
     header: '417 Demo Program',
-    src: "../videos/417Demo.mp4",
+    src: "https://www.youtube.com/embed/JjPS5ImEaLQ",
     text: 'In this demo, I show a comedic implemention for a horrible way to add integers within the 417 language.'
   }
 
@@ -51,7 +51,7 @@ let interpreterPageHTML = '';
           <p class="section-text-odd">${block.text}
         </div>
         <div class="video-container">
-          <iframe class="demo-vid js-demo-vid"
+          <iframe class="demo-vid"
             src=${block.src} allow="autoplay; encrypted-media">
           </iframe>
         </div>
@@ -96,6 +96,4 @@ let interpreterPageHTML = '';
   document.querySelector('.js-interpreter-blocks')
     .innerHTML = interpreterPageHTML;
   
-  document.querySelector('.js-demo-vid').addEventListener("load", () => {
-    document.querySelector('.js-demo-vid').contentWindow.document.querySelector("video").pause();
-  });
+ 

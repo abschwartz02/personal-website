@@ -25,7 +25,7 @@ const coffeeMakerData = [
   {
     demo: true,
     header: 'CoffeeMaker Demo',
-    src: "../videos/coffee-maker-demo.mp4",
+    src: "https://www.youtube.com/embed/mWas5FchmBI",
   },
   {
     bigImage: true,
@@ -50,7 +50,7 @@ let coffeeMakerPageHTML = '';
           <p class="section-header-even">${block.header}</p>
         </div>
         <div class="video-container">
-          <iframe class="demo-vid js-demo-vid"
+          <iframe class="demo-vid"
             src=${block.src} allow="autoplay; encrypted-media">
           </iframe>
         </div>
@@ -100,6 +100,4 @@ let coffeeMakerPageHTML = '';
   document.querySelector('.js-coffee-blocks')
     .innerHTML = coffeeMakerPageHTML;
 
-    document.querySelector('.js-demo-vid').addEventListener("load", () => {
-      document.querySelector('.js-demo-vid').contentWindow.document.querySelector("video").pause();
-    });
+  
