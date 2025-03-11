@@ -4,7 +4,7 @@ const homeData = [
   {
     image: 'images/question-mark.png',
     header: 'Who is Andrew Schwartz?',
-    text: `The handsome gentleman in the picture above is none other than yours truly. I love to code, and I built this website from scratch to log my career journey as well as show off some projects and my unique personality. `
+    text: `The gentleman in the picture above is none other than yours truly. I love to code, and I built this website from scratch to log my career journey as well as show off some projects and my unique personality. `
   },
   {
     image: 'images/ncsu-wolf.png',
