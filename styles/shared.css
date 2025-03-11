@@ -11,7 +11,9 @@
   
   padding: 0px;
   min-height: 600px;
-  margin-top: -58px;
+  margin-top: 0px;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 

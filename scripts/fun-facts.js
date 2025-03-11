@@ -20,8 +20,8 @@ const funFactData = [
 
 
 document.body.innerHTML = await generateTopBar("FunFacts", "") + document.body.innerHTML;
-document.querySelector('.js-page-container').innerHTML += await generateFooter();
-await configureTopBar(document);
+document.querySelector('.js-page-container').innerHTML += await generateFooter(false);
+await configureTopBar(document, false);
 
 
 

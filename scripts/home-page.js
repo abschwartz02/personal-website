@@ -4,12 +4,14 @@ const homeData = [
   {
     image: 'images/question-mark.png',
     header: 'Who is Andrew Schwartz?',
-    text: `The handsome gentleman in the picture above is none other than yours truly. I love to code, and I built this website from scratch to log my career journey as well as show off some projects and my unique personality. `
+    text: `The gentleman in the picture above is none other than yours truly. I love to code, and I built this website from scratch to log my career journey as well as show off some projects and my unique personality. `
   },
   {
     image: 'images/ncsu-wolf.png',
     header: 'Education',
-    text: 'Go pack! Earning my CS degree as a member of the wolfpack nation was a truly unforgettable experience. I embraced a studious lifestyle, graduating with a 3.97 GPA, and taking some really fun courses. Check out the projects page to view some of the work from my most memorable courses.'
+    linkToProjects: true,
+    text1: 'Go pack! Earning my CS degree as a member of the wolfpack nation was a truly unforgettable experience. I embraced a studious lifestyle, graduating with a 3.97 GPA, and taking some really fun courses. Check out the ',
+    text2: ' to view some of the work from my most memorable courses.'
   },
   {
     image: 'images/career.png',
@@ -19,8 +21,8 @@ const homeData = [
 ]
 
 document.body.innerHTML = await generateTopBar("Home", "") + document.body.innerHTML;
-document.querySelector('.js-page-container').innerHTML += await generateFooter();
-await configureTopBar(document);
+document.querySelector('.js-page-container').innerHTML += await generateFooter(false);
+await configureTopBar(document, false);
 
 let homePageHTML = '';
   homeData.forEach((block, index) => {
@@ -46,8 +48,13 @@ let homePageHTML = '';
       <div class="home-page-section-odd">
         <div class="section-content-odd">
           <p class="section-header-odd">${block.header}</p>
-          <p class="section-text-odd">${block.text}
+          <p class="section-text-odd">${block.text1} 
+            <a class="section-link-odd" href="projects.html">
+                Projects Page
+            </a>
+          ${block.text2}
           </p>
+          
         </div>
 
         <img class="section-image-odd" src="${block.image}">
