@@ -9,7 +9,9 @@ const homeData = [
   {
     image: 'images/ncsu-wolf.png',
     header: 'Education',
-    text: 'Go pack! Earning my CS degree as a member of the wolfpack nation was a truly unforgettable experience. I embraced a studious lifestyle, graduating with a 3.97 GPA, and taking some really fun courses. Check out the projects page to view some of the work from my most memorable courses.'
+    linkToProjects: true,
+    text1: 'Go pack! Earning my CS degree as a member of the wolfpack nation was a truly unforgettable experience. I embraced a studious lifestyle, graduating with a 3.97 GPA, and taking some really fun courses. Check out the ',
+    text2: ' to view some of the work from my most memorable courses.'
   },
   {
     image: 'images/career.png',
@@ -46,8 +48,13 @@ let homePageHTML = '';
       <div class="home-page-section-odd">
         <div class="section-content-odd">
           <p class="section-header-odd">${block.header}</p>
-          <p class="section-text-odd">${block.text}
+          <p class="section-text-odd">${block.text1} 
+            <a class="section-link-odd" href="projects.html">
+                Projects Page
+            </a>
+          ${block.text2}
           </p>
+          
         </div>
 
         <img class="section-image-odd" src="${block.image}">

@@ -44,7 +44,7 @@ const dataScienceProjectData = [
   {
     image: '../images/green-check.png',
     header: 'Final Results',
-    text: `After performing data analysis, a model was developed that predicted the desired goal with 76% accuracy. The test data from this model indicated that a stocks sector, 52-week low, and price were significant attributes that had the most influence on the outcome of the model. This model is considered relatively successful given the sometimes random nature of stock prices, and it could be used for various stock market decision making applications.`
+    text: `After performing data analysis, a model was developed that predicted the desired goal with 72% accuracy. The test data from this model indicated that a stocks sector, 52-week low, and price were significant attributes that had the most influence on the outcome of the model. This model is considered relatively successful given the sometimes random nature of stock prices, and it could be used for various stock market decision making applications.`
   },
   {
     bigImage: true,
