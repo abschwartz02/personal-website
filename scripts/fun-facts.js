@@ -4,17 +4,17 @@ const funFactData = [
   {
     image: 'images/pittsburgh.png',
     header: 'Pittsburgh Sports!',
-    text: `Despite never living there myself, the American origins of the Schwartz family tree is rooted in the steel city of Pittsburgh. Taking after my father, I have pledged my undying loyalty to all pittsburgh sports teams, and I love to watch football, baseball, and hockey!`
+    text: `Although I’ve never lived there myself, the American origins of the Schwartz family tree are rooted in the steel city of Pittsburgh. Taking after my father, I’ve pledged my undying loyalty to all Pittsburgh sports teams, and I love watching football, baseball, and hockey!`
   },
   {
     image: 'images/dogs.jpg',
     header: 'My 2 Best Friends!',
-    text: `These are my dogs! Piper, the German Shepheard, is a gentle spirit who loves head scratches. Otis, the golden retriever, is always on the prowl for food scraps, and it's routine for me to toss him an ice cube whenever I grab anything from the fridge (AKA "paying the Otis tax").`
+    text: `These are my dogs! Piper, the German Shepherd, is a gentle spirit who loves head scratches. Otis, the Golden Retriever, is always on the prowl for food scraps, and it's routine for me to toss him an ice cube whenever I grab something from the fridge (AKA "paying the Otis tax").`
   },
   {
     image: 'images/bug.png',
     header: 'A 9 Hour Spelling Mistake!',
-    text: 'As a new programmer in college, I learned that programming takes perseverance the hard way when I spent 9 hours debugging an error caused by typing out the capital letter "O" instead of the number zero within a string. It was truly a humbling moment in my journey as a programmer, and it taught me the importance of paying attention to detail!' 
+    text: `As a new programmer in college, I learned the hard way that programming takes perseverance when I spent nine hours debugging an error caused by typing the capital letter 'O' instead of the number zero within a string. It was truly a humbling moment in my journey as a programmer, and it taught me the importance of paying attention to detail!` 
   }
 ]
 

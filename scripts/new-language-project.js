@@ -4,33 +4,33 @@ const interpreterData = [
   {
     image: '../images/algorithm.png',
     header: 'The New Language',
-    text: `417 (pronounced four-seventeen) is a programming language created within NC State's programming theory course (CSC-417). 417 is a Turing-complete language. This means that if a solution to any problem can be expressed as a sequence of steps, then 417 is able to implement it. Building an interpreter for this language was my favorite project at NC State, and completing it has given me fundamental knowledge that makes learning new programming languages significantly easier.`
+    text: `417 (pronounced four-seventeen) is a programming language created in NC State's Programming Theory course (CSC-417). 417 is a Turing-complete language, meaning that any problem whose solution can be expressed as a sequence of steps can be implemented in 417. Building an interpreter for this language was my favorite project at NC State, and completing it has provided me with fundamental knowledge that makes learning new programming languages significantly easier.`
   },
   {
     image: '../images/code.png',
     header: 'Coding in 417',
-    text: `417 is a expression based language that contains many different implementation features including: blocks for implementing sequences of expressions, type support for strings, integers, and doubles, built in functions for math, I/O, etc., iteration via recursion, first-class lambda expressions, the option for both lexical and dynamic scoping, conditional statements with boolean values and expression, creating new variable bindings with expressions, and reassigning old variable bindings to new expressions.`
+    text: `417 is an expression-based language that includes several implementation features, such as blocks for implementing sequences of expressions, type support for strings, integers, and doubles, built-in functions for math, I/O, etc., iteration via recursion, first-class lambda expressions, the option for both lexical and dynamic scoping, conditional statements with boolean values and expressions, the ability to create new variable bindings with expressions, and the capability to reassign old variable bindings to new expressions.`
   },
   {
     image: '../images/tree.png',
     header: 'How Does It Work?',
-    text: `417 code is written on a basic .txt file. This text file is then piped through a parser to produce an abstract syntax tree in the format of a Json string, and this string is then piped through an interpreter to execute the code. The parser for 417 was provided by Dr. Jamie Jennings, and each student in the course was tasked with building their own interpreter in a language of their choice.`
+    text: `417 code is written in a basic .txt file. This text file is then passed through a parser to produce an abstract syntax tree in the form of a JSON string, which is subsequently processed by an interpreter to execute the code. The parser for 417 was provided by Dr. Jamie Jennings, and each student in the course was tasked with building their own interpreter in a language of their choice.`
   },
   {
     image: '../images/global-env.png',
     header: 'About The Interpreter',
-    text: 'My interpreter for the 417 language is coded in Java. The environment for the language is maintained through a hashmap with strings being the identifier key and any Object being its value pair. Objects of the environment can be children of the abstract built-in-function class, lambda expression objects, integers, strings, or doubles. The abstract syntax tree is evaluated through an "eval" function, which applies functions and makes various recursive calls to completely evaluate the abstract syntax tree.' 
+    text: `My interpreter for the 417 language is written in Java. The environment for the language is maintained using a hashmap, where strings serve as the identifier keys and any Object as the value pair. Objects in the environment can be instances of the abstract built-in-function class, lambda expression objects, integers, strings, or doubles. The abstract syntax tree is evaluated through an "eval" function, which applies functions and makes recursive calls to fully evaluate the tree.`
   },
   {
     image: '../images/boolean-flags.png',
     header: 'Additional Cool Things',
-    text: `My interpreter contains two boolean flags that allow for different implementations of the 417 language. 417 has lexical scoping rules when the "LEXICAL" boolean is set to true and dynamic rules when it's set to false(if you're feeling psychotic). When the "MAGIC_LET" boolean is set to true, variables created within lambda expressions persist in the environment even after leaving the scope of the lambda expression, and this allows for defining functions that create variables.` 
+    text: `My interpreter includes two boolean flags that enable different implementations of the 417 language. The language follows lexical scoping rules when the "LEXICAL" flag is set to true and dynamic scoping rules when it's set to false (if you're feeling adventurous). When the 'MAGIC_LET' flag is set to true, variables created within lambda expressions persist in the environment even after leaving the scope of the expression, allowing for the definition of functions that create variables.` 
   },
   {
     demo: true,
     header: '417 Demo Program',
     src: "https://www.youtube.com/embed/JjPS5ImEaLQ",
-    text: 'In this demo, I show a comedic implemention for a horrible way to add integers within the 417 language.'
+    text: 'In this demo, I showcase a comedic implementation of a terrible way to add integers within the 417 language.'
   }
 
 ]

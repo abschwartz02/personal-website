@@ -5,17 +5,17 @@ const coffeeMakerData = [
   {
     image: '../images/coffee-maker-home.png',
     header: 'Project Introduction',
-    text: `I love coffee! For my first major project at NC State, 6 other student developers and I worked to develop the "CoffeeMaker" web application to simulate typical interactions and tasks that take place within a coffee shop. This project is the first full-stack web application I worked on at NC State, and it marked a pivotal moment in my education where I learned Agile software development processes, collaboration in a large team, and having to learn new technologies fast to meet deadlines.`
+    text: `I love coffee! For my first major project at NC State, six other student developers and I worked together to develop the "CoffeeMaker" web application, simulating typical interactions and tasks that take place within a coffee shop. This project was the first full-stack web application I worked on at NC State, and it marked a pivotal moment in my education where I learned Agile software development processes, collaborated in a large team, and quickly adapted to new technologies to meet deadlines`
   },
   {
     image: '../images/barista.png',
     header: 'About CoffeeMaker',
-    text: `The CoffeeMaker web application has four different types of user accounts. A basic user can place new coffee orders based on recipes within the shop's menu and pick them up once their order has been fulfilled. A barista account is able to fulfill placed coffee orders, view the shop's order history, and stock the shop's inventory with ingredients. A manager account can do everything a barista can do, add new ingredients used for creating recipes, and create, edit, or delete coffee recipes on the shop's menu. Lastly, a single admin account can create and delete barista and manager accounts as well as promote baristas to managers and demote managers to baristas.`
+    text: `The CoffeeMaker web application features four different types of user accounts. A basic user can place coffee orders based on recipes from the shop's menu and pick them up once their order is fulfilled. A barista account allows users to fulfill orders, view the shop's order history, and stock the inventory with ingredients. A manager account includes all the barista functionalities, plus the ability to add new ingredients for recipes and create, edit, or delete coffee recipes on the menu. Lastly, a single admin account can create and delete barista and manager accounts, as well as promote baristas to managers and demote managers to baristas.`
   },
   {
     image: '../images/coffee-maker-tech.png',
     header: 'Technology',
-    text: 'CoffeeMaker is a Spring Boot web application coded with a Java back end that uses Hibernate as an Object-Relational Mapping framework to store application data such as users, orders, recipes, and more within a MySQL database. The front end of CoffeeMaker was built with AngularJS offering a dynamic and responsive user interface that enables smooth client-server interactions via RESTful API calls. This combination of technologies ensures a scalable, maintainable, and efficient web application for coffee shop management.'
+    text: 'CoffeeMaker is a Spring Boot web application with a Java back end that uses Hibernate as an Object-Relational Mapping framework to store data such as users, orders, recipes, and more in a MySQL database. The front end is built with AngularJS, providing a dynamic and responsive user interface that facilitates smooth client-server interactions via RESTful API calls. This combination of technologies ensures a scalable, maintainable, and efficient web application for coffee shop management.'
   },
   {
     image: '../images/contributions.png',
@@ -31,7 +31,7 @@ const coffeeMakerData = [
     bigImage: true,
     image: '../images/peer-reviews.png',
     header: 'Peer Reviews',
-    text: 'Once of my most joyous moments at NC State was reading these peer reviews from each of my wonderful teammates.' 
+    text: 'One of my most joyous moments at NC State was reading the peer reviews from each of my wonderful teammates.' 
   }
 ]
 

@@ -4,26 +4,26 @@ const projectData = [
   {
     image: 'images/hitachi.png',
     header: 'My Capstone Project',
-    text: `To show the culmination of everything I had learned while attending NC State, I had the privilege of developing software in a sponsor-lead project in collaboration with Hitachi Energy. Within a team of 5 seniors over the span of an entire semester, I helped build a fully functioning full-stack web application to serve as a user interface for the creation and modification of complex Json files.`,
+    text: `To showcase everything I learned at NC State, I had the privilege of developing software in a sponsor-led project in collaboration with Hitachi Energy. As part of a team of five seniors over an entire semester, I helped build a fully functional full-stack web application serving as a user interface for creating and modifying complex JSON files.`,
     link: 'projects/web-config-project.html'
   },
   {
     image: 'images/stock.png',
     header: 'Stock Data Analysis Project',
-    text: 'Data, Data, Data! Data is everything! In my Data Science class at NC State, I had the awesome opportunity of working in a team of 3 to help to gather, wrangle and prepare, and build predictive models with data on stocks listed within the S&P 500.',
+    text: 'Data, data, data! Data is everything! In my Data Science class at NC State, I had the incredible opportunity to work in a team of three to gather, wrangle, and prepare data to build predictive models that can predict factors for stocks listed in the S&P 500.',
     link: 'projects/data-analysis-project.html' 
   },
   {
     image: 'images/interpreter.png',
     header: 'Building a New Programming Interpreter',
-    text: 'Yup, thats right! One of my favorite projects at NC State was building a fully functioning interpreter for a new programming language. In honor of the course number for my programming theory class, the language was named "417" (pronounced four-seventeen). This project has given me a fundamental understanding of how code works, and this fundamental knowledge has made learning new programming languages significantly easier for me.',
+    text: `One of my favorite projects at NC State was building a fully functional interpreter for a new programming language. In honor of my programming theory class’s course number, the language was named '417' (pronounced four-seventeen). This project gave me a fundamental understanding of how code works, making it significantly easier for me to learn new programming languages.`,
     link: 'projects/new-language-project.html' 
     
   },
   {
     image: 'images/coffee-shop.png',
     header: 'CoffeeMaker Web Application',
-    text: 'As a software engineer, coffee holds a special place in my heart. The CoffeeMaker Web Application simulates typical interactions and tasks that take place within a coffee shop. This project is the first full-stack web application I worked on at NC State, and it marked a pivotal moment in my education where I learned Agile software development processes, collaboration in a large team, and having to learn new technologies fast to meet deadlines.',
+    text: 'As a software engineer, coffee holds a special place in my heart. The CoffeeMaker Web Application simulates typical interactions and tasks in a coffee shop. This project was the first full-stack web application I worked on at NC State, marking a pivotal moment in my education. Through it, I learned Agile software development processes, teamwork in a large group, and how to quickly adapt to new technologies to meet deadlines.',
     link: 'projects/coffeemaker-web-app.html' 
   }
 
