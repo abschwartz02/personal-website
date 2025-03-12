@@ -16,7 +16,7 @@ const projectData = [
   {
     image: 'images/interpreter.png',
     header: 'Building a New Programming Interpreter',
-    text: `One of my favorite projects at NC State was building a fully functional interpreter for a new programming language. In honor of my programming theory class’s course number, the language was named '417' (pronounced four-seventeen). This project gave me a fundamental understanding of how code works, making it significantly easier for me to learn new programming languages.`,
+    text: `One of my favorite projects at NC State was building a fully functional interpreter for a new programming language. In honor of my programming theory class’s course number, the language was named "417" (pronounced four-seventeen). This project gave me a fundamental understanding of how code works, making it significantly easier for me to learn new programming languages.`,
     link: 'projects/new-language-project.html' 
     
   },

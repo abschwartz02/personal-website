@@ -24,7 +24,7 @@ const interpreterData = [
   {
     image: '../images/boolean-flags.png',
     header: 'Additional Cool Things',
-    text: `My interpreter includes two boolean flags that enable different implementations of the 417 language. The language follows lexical scoping rules when the "LEXICAL" flag is set to true and dynamic scoping rules when it's set to false (if you're feeling adventurous). When the 'MAGIC_LET' flag is set to true, variables created within lambda expressions persist in the environment even after leaving the scope of the expression, allowing for the definition of functions that create variables.` 
+    text: `My interpreter includes two boolean flags that enable different implementations of the 417 language. The language follows lexical scoping rules when the "LEXICAL" flag is set to true and dynamic scoping rules when it's set to false (if you're feeling adventurous). When the "MAGIC_LET" flag is set to true, variables created within lambda expressions persist in the environment even after leaving the scope of the expression, allowing for the definition of functions that create variables.` 
   },
   {
     demo: true,
