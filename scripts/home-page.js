@@ -16,7 +16,8 @@ const homeData = [
   {
     image: 'images/career.png',
     header: 'My Career',
-    text: `As a recent college graduate, I am eager to put my degree to work! Working at a steakhouse for six years through high school and college was an amazing experience that taught me the value of employee loyalty. However, my true passion lies in building meaningful software solutions, and I can't wait to see where the tech industry takes me!` 
+    text: `My journey into the tech industry officially began when I joined Prometheus Group, a software company based in Raleigh, as a Quality Assurance Engineer. Every day, I get to dig into real software, test its limits, and collaborate with talented developers to make sure our products are running smoothly for clients. I love the puzzle-solving aspect of QA, and exploring software in unexpected ways and uncovering hidden bugs feels like a digital treasure hunt. Starting my career here has been both exciting and incredibly rewarding, and I’m eager to see where this path in tech will take me next.` 
+    
   }
 ]
 
