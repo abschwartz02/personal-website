@@ -11,7 +11,7 @@
   flex-wrap: wrap;
   display: flex;
   min-height: 500px;
-  margin-top: 60px;
+  margin-top: 58px;
   
   
 }
@@ -158,3 +158,19 @@
   justify-content: center;
 
 }
+
+
+.section-link-odd {
+  font-size: 40;
+  text-decoration: underline;
+  color: white; /* Changes the text color */
+  
+}
+
+.section-link-odd:hover {
+  color: black;
+  
+}
+
+
+

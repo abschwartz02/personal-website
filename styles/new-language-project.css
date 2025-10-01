@@ -11,7 +11,7 @@
   flex-wrap: wrap;
   display: flex;
   min-height: 500px;
-  margin-top: 60px;
+  margin-top: 58px;
   
   
 }
@@ -175,7 +175,7 @@
 
 .video-container {
   position: relative;
-  width: 100%;
+  width: 99%;
   max-width: 1200px;
   aspect-ratio: 16 / 9;
   margin: 20px 0px;
